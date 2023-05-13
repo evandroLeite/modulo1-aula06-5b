@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06(5b)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css.css">
+</head>
+<body id="corpo">
+    <header>
+        cabeçalho
+    </header>
+    <main>
+        <section id="produtos">
+            <h1>PRO<span>DU</span>TOS</h1>
+            <ul>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_cat_epte.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_female_avatar_efig.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_dog_c7i6.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_love_is_in_the_air_4uud.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_mindfulness_8gqa.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="img-icons/svg/undraw_new_year_2023_pfnc.svg" alt="">
+                    </div>
+                    <h3>titulo</h3>
+                    <p>Texto demonstrativo, apenas para demonstrar . Lortem ipsum etc enaonan lansdljasnkjnkank nk.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+   
+    <footer id="depoimentos">
+        <div>
+            <h2>Logo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum unde, qui quasi illum numquam temporibus sit e</p>
+            <ul>
+                <li>
+                    <a href="#!"><i title="Facebook" class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#!"><i title="Isntagram" class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#!"><i title="LinkedIn" class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#!"><i title="Youtube" class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h5>ACESSO RÁPIDO:</h5>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Assine nossa NEWSLATTER</h5>
+            <div class="newslatter">
+                <input type="text">
+                <span>Digite seu melhor email:</span>
+                <button><i class="fa fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="">
+            <h6>&copy; 2023 Todos os direitos reservados.</h6>
+        </div>
+    </footer>
+    <div class="voltar">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <script>
+        let voltar = document.querySelector(".voltar")
+        corpo.onscroll = () => {
+            let rolagem = window.pageYOffset;
+            if (rolagem > 300){
+                voltar.classList.add('active')
+            }else{
+                voltar.classList.remove('active')
+            }
+        }
+    </script>
+</body>
+</html>
